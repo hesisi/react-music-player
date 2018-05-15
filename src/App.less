@@ -1,0 +1,61 @@
+/*覆盖antd自带样式*/
+.ant-layout-header{
+    background-color:#D04741;
+    height:50px;
+    line-height:50px;
+    padding:0 15px;
+    color:#fff;
+}
+.ant-menu-item-selected{
+    a,i{
+        color: #D04741;
+    }
+}
+::-moz-selection {
+    background: #D04741;
+    color: #fff;
+}
+
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+    a,i{
+        color: #D04741;
+    }
+}
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after{
+    border-right:3px solid#D04741;
+}
+
+a{
+    color:#595959;
+    text-decoration: none;
+}
+a:link{text-decoration:none; } 
+a:visited{text-decoration:none; }
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+
+//footer
+.ant-layout-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #ffffff;
+    padding:0px;
+    border-top:1px solid #e3e3e3;
+}
+
+//进度条
+.ant-progress-success-bg, .ant-progress-bg {
+    background-color: #D04741;
+}
+.ant-progress-inner{
+    background-color: #e3e3e3;
+}
+.flexContainer{
+    display:flex;
+    justify-content:space-between;
+}
+//主题组件部分
+.ant-layout-content{
+    padding:15px 30px;
+}
